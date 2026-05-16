@@ -10,7 +10,7 @@ variable "sg_name" {
   type = string
 }
 
-variable "description" {
+variable "sg_description" {
   type = string
   default = ""
 }
