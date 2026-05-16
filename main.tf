@@ -15,7 +15,7 @@ tags = merge(
   var.sg_name,
   local.common_tags,
   {
-    Name = "${local.common_name_suffix}-public"
+    Name = "${local.common_name_suffix}-${var.sg_name}"
   }
   )
 }
